@@ -1,0 +1,10 @@
+.active {
+  color: white;
+  background-color: green;
+  border-color: limegreen;
+}
+.inactive {
+  color: white;
+  background-color: darkblue;
+  border-color: skyblue;
+}

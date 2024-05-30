@@ -1,0 +1,29 @@
+{
+	"Test Page Template":{
+		"scope" : "html",
+		"prefix" : "testpage",
+		"body" : [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"\t<head>",
+			"\t\t<meta charset=\"UTF-8\">",
+			"\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"\t\t<link rel=\"stylesheet\" href=\"/test.css\">",
+			"\t\t<script src=\"/test.js\"></script>",
+			"\t\t<title>Test: TESTNAME</title>",
+			"\t\t<!--TEST SPECIFIC FILES-/->",
+			"\t\t<script src=\"../TESTNAME.js\"></script>",
+			"\t\t<!-/-TEST SPECIFIC FILES-->",
+			"\t</head>",
+			"\t<body style=\"width:100vw;height:100vh;\">",
+			"\t\t<div style=\"display:flex;justify-content: space-evenly; align-items: center;\">",
+			"\t\t\t<!--TEST SPECIFIC HTML ELEMENTS-/->",
+			"\t\t\t<div class=\"test-class\"></div>",
+			"\t\t\t<!-/-TEST SPECIFIC HTML ELEMENTS-->    ",
+			"\t\t</div>",
+			"\t</body>",
+			"</html>",
+		],
+		"description": "Template HTML for Tests"
+	}
+}
